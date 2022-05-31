@@ -45,6 +45,12 @@ nav ul li{
     display: inline-block;
 }
 
+/*animacion del navegador*/ 
+
+nav ul :hover{
+    background-color: rgb(160, 109, 47);
+} 
+
 /*grid de productos*/ 
 
 .contenedor{
@@ -57,6 +63,12 @@ nav ul li{
     "producto1 producto2 producto3 producto4"
     "producto5 producto6 producto7 producto8"
     "footer footer footer footer";
+}
+
+/*animaciones de productos*/ 
+
+.TextProducto:hover{
+    background-color: rgb(214, 159, 55); 
 }
 
 /*cuadritos de productos*/ 
