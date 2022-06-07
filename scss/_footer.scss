@@ -1,0 +1,13 @@
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoFooter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}

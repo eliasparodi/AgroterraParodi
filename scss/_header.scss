@@ -1,0 +1,49 @@
+.header{
+    background-image:
+    url(/imagenes/gerardoHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: header;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*navegador*/ 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+
+    &:hover{
+        background-color: rgb(131, 189, 141);
+    }
+}
+
+/*TITULOS*/
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(12, 12, 127);
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(12, 12, 127);
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(74, 74, 80);
+}

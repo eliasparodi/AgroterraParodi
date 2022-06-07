@@ -1,0 +1,112 @@
+@media screen and (max-width:900px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr auto;
+        grid-template-areas:
+        "header header header" 
+        "producto1 producto2 producto3" 
+        "producto4 producto5 producto6" 
+        "producto7 producto8 none"
+        "footer footer footer";
+    }
+
+    .biografia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .textoBio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoBio2{
+        text-align: center;
+    }
+
+    .index{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .video{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro, .texto1{
+        text-align: center;
+    }
+
+    .formulario{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+        grid-template-areas:
+        "header header" 
+        "producto1 producto2"
+        "producto3 producto4" 
+        "producto5 producto6" 
+        "producto7 producto8"
+        "footer footer";
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+    }
+
+    .biografia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .textoBio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoBio2{
+        text-align: center;
+    }
+
+    .index{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .video{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro, .texto1{
+        text-align: center;
+    }
+
+    .formulario{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

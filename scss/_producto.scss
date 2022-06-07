@@ -1,0 +1,67 @@
+/*PRODUCTOS*/ 
+
+/*grid de productos*/ 
+.contenedor{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-areas:
+    "header header header header" 
+    "producto1 producto2 producto3 producto4"
+    "producto5 producto6 producto7 producto8"
+    "footer footer footer footer";
+}
+
+/*Lista de productos*/ 
+.producto1{
+    grid-area: producto1;
+}
+
+.producto2{
+    grid-area: producto2; 
+}
+
+.producto3{
+    grid-area: producto3;
+}
+
+.producto4{
+    grid-area: producto4;
+}
+
+.producto5{
+    grid-area: producto5;  
+}
+
+.producto6{
+    grid-area: producto6; 
+}
+
+.producto7{
+    grid-area: producto7;
+}
+
+.producto8{
+    grid-area: producto8;
+}
+
+/*flexbox productos*/
+.ImgProducto{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.TextProducto{
+    background-color: rgb(212, 231, 255); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
+    &:hover{
+        background-color: rgb(167, 173, 255); 
+    }
+}
