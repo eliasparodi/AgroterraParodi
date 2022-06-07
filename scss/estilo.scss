@@ -232,10 +232,15 @@ h3{
     .index{
         display: flex;
         flex-direction: column;
+        align-content: center;
+    }
+
+    .video{
+        display: flex;
         justify-content: center;
     }
 
-    .intro{
+    .intro, .texto1{
         text-align: center;
     }
 }
@@ -286,10 +291,15 @@ h3{
     .index{
         display: flex;
         flex-direction: column;
+        align-content: center;
+    }
+
+    .video{
+        display: flex;
         justify-content: center;
     }
 
-    .intro{
+    .intro, .texto1{
         text-align: center;
     }
 }
