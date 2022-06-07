@@ -133,22 +133,19 @@ h3 {
 /*BIOGRAFIA*/
 .biografia {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 5% 5% 5% 5%; }
 
 .textoBio {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; }
+  flex-direction: column; }
 
 .textoBio2 {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8rem;
-  width: 80%; }
-
-/*CONTACTO*/
-.formulario {
-  margin-left: 30%;
-  margin-right: 30%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
 
 /*footer*/
 .footer {
@@ -173,10 +170,18 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center; }
+  .textoBio {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .textoBio2 {
+    text-align: center; }
   .index {
     display: flex;
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+  .intro {
+    text-align: center; } }
 
 @media screen and (max-width: 600px) {
   .contenedor {
@@ -191,4 +196,20 @@ h3 {
   nav ul li {
     display: flex;
     flex-direction: row;
-    display: inline-block; } }
+    display: inline-block; }
+  .biografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .textoBio {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .textoBio2 {
+    text-align: center; }
+  .index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .intro {
+    text-align: center; } }

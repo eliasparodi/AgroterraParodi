@@ -168,28 +168,20 @@ h3{
 .biografia{
     display: flex;
     align-items: center;
-}
-
-.fotoBio{
-
+    margin: 5% 5% 5% 5%;
 }
 
 .textoBio{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .textoBio2{
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
-    width: 80%;
-}
-
-/*CONTACTO*/
-.formulario{
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /*footer*/ 
@@ -227,12 +219,25 @@ h3{
         justify-content: center;
     }
 
+    .textoBio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoBio2{
+        text-align: center;
+    }
+
     .index{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
+    .intro{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -259,5 +264,32 @@ h3{
         display: flex;
         flex-direction: row;
         display: inline-block;
+    }
+
+    .biografia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .textoBio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoBio2{
+        text-align: center;
+    }
+
+    .index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro{
+        text-align: center;
     }
 }
