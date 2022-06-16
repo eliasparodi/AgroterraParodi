@@ -1,6 +1,8 @@
+
+
 .header{
     background-image:
-    url(/imagenes/gerardoHeader.jpg);
+    url("../imagenes/gerardoHeader.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,7 +28,7 @@ nav ul li{
     text-decoration: none;
 
     &:hover{
-        background-color: rgb(131, 189, 141);
+        background-color:$color1;
     }
 }
 
@@ -34,16 +36,15 @@ nav ul li{
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    color: rgb(12, 12, 127);
+    color: $color2;
 }
 h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    @extend h1;
     text-align: center;
-    color: rgb(12, 12, 127);
+
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: rgb(74, 74, 80);
+   color:$color1;
 }

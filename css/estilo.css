@@ -1,5 +1,5 @@
 .header {
-  background-image: url(/imagenes/gerardoHeader.jpg);
+  background-image: url("../imagenes/gerardoHeader.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,26 +24,23 @@ nav ul li {
     background-color: #83bd8d; }
 
 /*TITULOS*/
-h1 {
+h1, h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  color: #0c0c7f; }
+  color: #9191c5; }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  color: #0c0c7f; }
+  text-align: center; }
 
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #4a4a50; }
+  color: #83bd8d; }
 
 .agroterra {
   font-family: 'Roboto', sans-serif;
   font-size: 4rem;
-  background-color: #d4e7ff; }
+  background-color: azure; }
 
 .index {
   display: flex;
@@ -109,14 +106,14 @@ h3 {
   justify-content: center; }
 
 .TextProducto {
-  background-color: #d4e7ff;
+  background-color: #9191c5;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem; }
   .TextProducto:hover {
-    background-color: #a7adff; }
+    background-color: #272797; }
 
 .biografia {
   display: flex;
@@ -125,18 +122,28 @@ h3 {
 
 .textoBio {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif; }
 
 .textoBio2 {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
   font-size: 0.8rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
+  width: 100%; }
 
 .formulario {
   margin-left: 30%;
   margin-right: 30%; }
+
+.facebook:hover {
+  background-color: #262664; }
+
+.instagram:hover {
+  background-color: #e09f81; }
+
+.linkedin:hover {
+  background-color: #55b7d8; }
 
 .footer {
   grid-area: footer;
@@ -148,7 +155,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-style: italic;
-  color: white; }
+  color: azure; }
 
 @media screen and (max-width: 900px) {
   .contenedor {

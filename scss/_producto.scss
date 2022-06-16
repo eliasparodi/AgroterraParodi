@@ -54,7 +54,7 @@
 }
 
 .TextProducto{
-    background-color: rgb(212, 231, 255); 
+    background-color:$color2; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,6 +62,6 @@
     font-size: 1rem;
     
     &:hover{
-        background-color: rgb(167, 173, 255); 
+        background-color: $color5;
     }
 }

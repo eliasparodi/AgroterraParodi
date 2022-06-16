@@ -4,15 +4,19 @@
     margin: 5% 5% 5% 5%;
 }
 
-.textoBio{
+@mixin Textos {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoBio{
+    @include Textos();
 }
 
 .textoBio2{
-    font-family: 'Roboto', sans-serif;
+    @include Textos();
     font-size: 0.8rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    
 }
