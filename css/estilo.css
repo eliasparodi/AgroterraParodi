@@ -27,7 +27,7 @@ nav ul li {
 h1, h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  color: #9191c5; }
+  color: #272797; }
 
 h2 {
   text-align: center; }
@@ -37,10 +37,13 @@ h3 {
   font-size: 20px;
   color: #83bd8d; }
 
+.navbar-toggler {
+  border: 0 !important;
+  box-shadow: unset !important; }
+
 .agroterra {
   font-family: 'Roboto', sans-serif;
-  font-size: 4rem;
-  background-color: azure; }
+  font-size: 4rem; }
 
 .index {
   display: flex;
@@ -58,6 +61,9 @@ h3 {
   font-size: 1rem;
   font-weight: 400; }
 
+.terra {
+  color: #272797 !important; }
+
 /*SERVICIOS*/
 .servicios {
   font-family: 'Roboto', sans-serif;
@@ -69,6 +75,7 @@ h3 {
 /*grid de productos*/
 .contenedor {
   height: 100vh;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr auto;
@@ -153,7 +160,7 @@ h3 {
 
 .textoFooter {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-style: italic;
   color: azure; }
 

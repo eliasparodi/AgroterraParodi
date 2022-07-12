@@ -36,7 +36,7 @@ nav ul li{
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    color: $color2;
+    color: $color5;
 }
 h2{
     @extend h1;
@@ -46,5 +46,10 @@ h2{
 h3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-   color:$color1;
+    color:$color1;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+    box-shadow: unset !important;
 }

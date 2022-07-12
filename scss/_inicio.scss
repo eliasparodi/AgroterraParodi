@@ -1,7 +1,6 @@
 .agroterra{
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
-    background-color: $color4;
 }
 
 .index{
@@ -21,4 +20,8 @@
     text-align: start;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.terra{
+    color: $color5 !important;
 }
